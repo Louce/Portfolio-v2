@@ -1,0 +1,103 @@
+@media screen and (max-width:1535px){
+    .groupe{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width:996px){
+
+    nav .onglets{
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+
+    header{
+        flex-direction: column-reverse;
+    }
+
+    header img{
+        height:200px;
+        width: 200px;
+    }
+
+    footer h1{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:767px){
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .main .card {
+        margin: 10px;
+    }
+    .main .content .card .left{
+        height:50px;
+        width: 100%;
+        margin-top: -0px;
+    }
+    .main .content .card .right{
+        width: 100%;
+        height: auto;
+    }
+
+    .main .content .card{
+        display: block;
+    }
+    footer{
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:510px){
+    .main .content .card .left{
+        height:30px;
+        width: auto;
+        margin-top: -0px;
+    }
+    .main .content .card .left h2{
+        font-size: 1.5em;
+    }
+
+    nav .onglets{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    header{
+        padding: 20px 40px 20px 40px;
+    }
+
+    footer .services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer h1{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:469px){
+    .main .content .card .left h2{
+        font-size: 1.1em;
+    }
+
+    .main .content .card .presentation_realisation img{
+        height:200px;
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width:359px){
+    .main .content .card .left h2{
+        font-size: 1em;
+    }
+}
